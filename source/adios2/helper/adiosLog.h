@@ -8,6 +8,8 @@
 #define ADIOS2_HELPER_ADIOSLOG_H_
 
 #include <string>
+#include <exception>
+using std::throw_with_nested;
 
 namespace adios2
 {
